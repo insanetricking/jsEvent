@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 100px auto;
+
+    max-width: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.figure{
+    width: 100px;
+    height: 100px;
+    box-shadow: 12px 14px 25px 6px;
+    transition: 0.8s;
+
+}
+
+.circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+#button{
+    margin-top: 150px;
+    width: 200px;
+    height: 35px;
+    box-shadow: 10px 10px 10px 3px;
+    text-transform: capitalize;
+
+}
